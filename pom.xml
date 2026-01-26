@@ -12,6 +12,7 @@
 
   <modules>
     <module>delicias-users</module>
+    <module>delicias-zones</module>
   </modules>
 
   <properties>
