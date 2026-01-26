@@ -11,13 +11,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <!--<module>delicias-users</module>-->
-
-    <!--<module>delicias-service-users</module>
-    <module>delicias-service-products</module>
-    <module>delicias-service-orders</module>
-    <module>delicias-service-promotions</module>
-    <module>delicias-service-shoppingcart</module>-->
+    <module>delicias-users</module>
   </modules>
 
   <properties>
@@ -46,6 +40,32 @@
   <build>
     <pluginManagement>
       <plugins>
+
+        <!-- Quarkus Maven Plugin -->
+        <plugin>
+          <groupId>io.quarkus.platform</groupId>
+          <artifactId>quarkus-maven-plugin</artifactId>
+          <version>${quarkus.platform.version}</version>
+          <extensions>true</extensions>
+        </plugin>
+
+        <!-- Compiler -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${compiler-plugin.version}</version>
+          <configuration>
+            <release>${java.version}</release>
+          </configuration>
+        </plugin>
+
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <!--<build>
+    <pluginManagement>
+      <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
@@ -56,6 +76,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-  </build>
+  </build>-->
 
 </project>

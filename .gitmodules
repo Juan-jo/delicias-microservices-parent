@@ -1,0 +1,6 @@
+[submodule "delicias-users"]
+	path = delicias-users
+	url = git@github.com:Juan-jo/delicias-users.git
+[submodule "delicias-zones"]
+	path = delicias-zones
+	url = git@github.com:Juan-jo/delicias-zones.git
