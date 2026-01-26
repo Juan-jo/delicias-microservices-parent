@@ -4,3 +4,6 @@
 [submodule "delicias-zones"]
 	path = delicias-zones
 	url = git@github.com:Juan-jo/delicias-zones.git
+[submodule "delicias-core"]
+	path = delicias-core
+	url = git@github.com:Juan-jo/delicias-services-core.git

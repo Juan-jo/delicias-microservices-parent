@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/delicias-users/pom.xml" />
         <option value="$PROJECT_DIR$/delicias-zones/pom.xml" />
+        <option value="$PROJECT_DIR$/delicias-core/pom.xml" />
       </list>
     </option>
   </component>
