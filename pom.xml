@@ -11,7 +11,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <!--<module>delicias-service-core</module>-->
+    <module>delicias-services-core</module>
     <module>delicias-users</module>
     <module>delicias-zones</module>
   </modules>

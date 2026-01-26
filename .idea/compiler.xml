@@ -8,11 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="delicias.service.zones" />
         <module name="delicias.service.users" />
+        <module name="delicias-service-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="delicias-service-core" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
