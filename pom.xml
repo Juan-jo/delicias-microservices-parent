@@ -14,6 +14,7 @@
     <module>delicias-services-core</module>
     <module>delicias-users</module>
     <module>delicias-zones</module>
+    <module>delicias-restaurants</module>
   </modules>
 
   <properties>

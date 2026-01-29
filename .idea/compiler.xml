@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="delicias.service.zones" />
+        <module name="delicias-service-restaurants" />
         <module name="delicias.service.users" />
         <module name="delicias-service-core" />
       </profile>
