@@ -10,3 +10,6 @@
 [submodule "delicias-restaurants"]
 	path = delicias-restaurants
 	url = git@github.com:Juan-jo/delicias-restaurants.git
+[submodule "delicias-products"]
+	path = delicias-products
+	url = git@github.com:Juan-jo/delicias-products.git
