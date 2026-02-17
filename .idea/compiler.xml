@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="delicias.service.zones" />
         <module name="delicias-service-restaurants" />
         <module name="delicias-service-products" />
-        <module name="delicias.service.users" />
+        <module name="delicias-service-zones" />
+        <module name="delicias-service-shoppingcart" />
         <module name="delicias-service-core" />
+        <module name="delicias-service-users" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="delicias.service.users" target="17" />
+      <module name="delicias.service.zones" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

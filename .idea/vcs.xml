@@ -5,7 +5,6 @@
     <mapping directory="$PROJECT_DIR$/delicias-products" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/delicias-restaurants" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/delicias-services-core" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/delicias-users" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/delicias-zones" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/delicias-shoppingcart" vcs="Git" />
   </component>
 </project>
