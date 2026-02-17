@@ -5,7 +5,13 @@ cd delicias-services-core
 mvn clean install
 cd ..
 
-SERVICES=("delicias-users" "delicias-zones" "delicias-restaurants" "delicias-products")
+SERVICES=(
+"delicias-users"
+"delicias-zones"
+"delicias-restaurants"
+"delicias-products"
+"delicias-shoppingcart"
+)
 
 for SERVICE in "${SERVICES[@]}"; do
     echo "🔨 -> Building $SERVICE..."

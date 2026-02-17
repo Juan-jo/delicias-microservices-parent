@@ -16,6 +16,7 @@
     <module>delicias-zones</module>
     <module>delicias-restaurants</module>
     <module>delicias-products</module>
+    <module>delicias-shoppingcart</module>
   </modules>
 
   <properties>

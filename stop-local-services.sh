@@ -1,7 +1,12 @@
 #!/bin/bash
 
 
-SERVICES=("delicias-users" "delicias-zones" "delicias-restaurants" "delicias-products")
+SERVICES=("delicias-users"
+"delicias-zones"
+"delicias-restaurants"
+"delicias-products"
+"delicias-shoppingcart"
+)
 
 echo "Stoping services..."
 

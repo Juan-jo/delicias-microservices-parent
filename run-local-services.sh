@@ -34,7 +34,8 @@ SERVICE_DATABASES=(
     ["delicias-users"]="delicias_users"
     ["delicias-zones"]="delicias_zones"
     ["delicias-restaurants"]="delicias_restaurants"
-    ["delicias-products"]="delicias_products"
+    ["delicias-products"]="delicias_products",
+    ["delicias-shoppingcart"]="delicias_shoppingcar"
 )
 
 SERVICES=(
@@ -42,6 +43,7 @@ SERVICES=(
 "delicias-zones"
 "delicias-restaurants"
 "delicias-products"
+"delicias-shoppingcart"
 )
 
 for SERVICE in "${SERVICES[@]}"; do
