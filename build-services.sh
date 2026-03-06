@@ -11,6 +11,7 @@ SERVICES=(
 "delicias-restaurants"
 "delicias-products"
 "delicias-shoppingcart"
+"delicias-orders"
 )
 
 for SERVICE in "${SERVICES[@]}"; do

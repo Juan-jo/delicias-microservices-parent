@@ -6,6 +6,7 @@ SERVICES=("delicias-users"
 "delicias-restaurants"
 "delicias-products"
 "delicias-shoppingcart"
+"delicias-orders"
 )
 
 echo "Stoping services..."
