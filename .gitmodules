@@ -16,3 +16,6 @@
 [submodule "delicias-shoppingcart"]
 	path = delicias-shoppingcart
 	url = git@github.com:Juan-jo/delicias-shoppingcart.git
+[submodule "delicias-orders"]
+	path = delicias-orders
+	url = git@github.com:Juan-jo/delicias-orders.git

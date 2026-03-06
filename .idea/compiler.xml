@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="delicias-service-zones" />
         <module name="delicias-service-restaurants" />
         <module name="delicias-service-products" />
-        <module name="delicias-service-zones" />
+        <module name="delicias-service-orders" />
         <module name="delicias-service-shoppingcart" />
         <module name="delicias-service-core" />
         <module name="delicias-service-users" />
