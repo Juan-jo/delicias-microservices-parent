@@ -18,6 +18,7 @@
     <module>delicias-products</module>
     <module>delicias-shoppingcart</module>
     <module>delicias-orders</module>
+    <module>delicias-find-delivery-batch</module>
   </modules>
 
   <properties>

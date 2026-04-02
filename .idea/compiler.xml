@@ -13,6 +13,7 @@
         <module name="delicias-service-orders" />
         <module name="delicias-service-shoppingcart" />
         <module name="delicias-service-core" />
+        <module name="delicias.batch" />
         <module name="delicias-service-users" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="delicias-service-core" options="" />
+      <module name="delicias.batch" options="-parameters" />
       <module name="delicias.service.users" options="" />
       <module name="delicias.service.zones" options="" />
     </option>

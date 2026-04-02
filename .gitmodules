@@ -19,3 +19,6 @@
 [submodule "delicias-orders"]
 	path = delicias-orders
 	url = git@github.com:Juan-jo/delicias-orders.git
+[submodule "delicias-find-delivery-batch"]
+	path = delicias-find-delivery-batch
+	url = git@github.com:Juan-jo/delicias-find-delivery-batch.git
