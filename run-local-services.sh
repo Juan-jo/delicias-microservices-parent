@@ -32,6 +32,7 @@ export CLIENT_API_USERS_URL=http://localhost:3000
 export CLIENT_API_ZONES_URL=http://localhost:3001
 export CLIENT_API_RESTAURANTS_URL=http://localhost:3002
 export CLIENT_API_PRODUCTS_URL=http://localhost:3003;
+export CLIENT_API_SHOPPINGCART_URL=http://localhost:3004;
 
 # Dynamic database
 declare -A SERVICE_DATABASES
